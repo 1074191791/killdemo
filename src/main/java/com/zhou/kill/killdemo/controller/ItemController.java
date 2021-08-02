@@ -19,8 +19,4 @@ public class ItemController {
     public Boolean doKill(@PathVariable Long id) {
         return  itemService.doKill(id);
     }
-
-
-
-    // 123123123123123213
 }
