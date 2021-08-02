@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 import java.util.concurrent.locks.Lock;
 
 @SpringBootTest
-public class RedisLockTestDemo {
+public class RedisTestDemo {
 
     @Autowired
     private RedisTemplate<Object,Object> redisTemplate;
